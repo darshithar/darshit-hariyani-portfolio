@@ -102,7 +102,7 @@ if (MEDIUM_USERNAME !== undefined) {
     port: 443,
     method: "GET"
   };
-
+/*
   const req = https.request(options, res => {
     let mediumData = "";
 
@@ -120,11 +120,11 @@ if (MEDIUM_USERNAME !== undefined) {
         console.log("saved file to public/blogs.json");
       });
     });
-  });
-
+  });*/
+/*
   req.on("error", error => {
     throw error;
-  });
+  });*/
 
-  req.end();
+ // req.end();
 }
